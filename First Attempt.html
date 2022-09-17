@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       * {
+           box-sizing: border-box;
+       }
+       body {
+           margin: 0;
+           padding: 0;
+       }
+       .mum {
+           background-color: bisque;
+
+       }
+       .first {
+           background-color: bisque;
+           height: 70px;
+       }
+       .f1 {
+           background-color: bisque;
+           float: left;
+           width: 25%;
+           height: 70px;
+           text-align: center;
+       }
+       .f2 {
+           background-color: bisque;
+           float: left;
+           width: 25%;
+           height: 70px;
+       }
+       .f3 {
+           background-color: bisque;
+           float: left;
+           width: 50%;
+           height: 70px;
+       }
+       .f31 {
+           background-color: bisque;
+           float: left;
+           width: 25%;
+           height: 70px;
+           color: azure;
+           text-align: center;
+           padding: 15px;
+       }
+       .f32 {
+           background-color: bisque;
+           float: left;
+           width: 25%;
+           height: 70px;
+           color: azure;
+           text-align: center;
+           padding: 15px;
+       }
+       .f33 {
+           background-color: bisque;
+           float: left;
+           width: 25%;
+           height: 70px;
+           color: azure;
+           text-align: center;
+           padding: 16px;
+           font-size: larger;
+       }
+       .f34 {
+           background-color: bisque;
+           float: left;
+           width: 25%;
+           height: 70px;
+           color: azure;
+           text-align: center;
+           padding: 16px;
+           font-size: larger;
+       }
+       .f31in {
+           background-color: darkred;
+           width: 70%;
+           margin: auto;
+           height: 40px;
+           color: azure;
+           text-align: center;
+           padding: 7.5px;
+           font-size: 20px;
+           border-radius: 50%;
+       }
+       .f32in {
+           background-color: darkred;
+           width: 70%;
+           margin: auto;
+           height: 40px;
+           color: azure;
+           text-align: center;
+           padding: 7.5px;
+           font-size: 19px;
+           border-radius: 50%;
+       }
+       .f33in {
+           background-color: darkred;
+           width: 70%;
+           margin: auto;
+           height: 40px;
+           color: azure;
+           text-align: center;
+           padding: 8px;
+           font-size: 18px;
+           border-radius: 50%;
+       }
+       .f34in {
+           background-color: darkred;
+           width: 70%;
+           margin: auto;
+           height: 40px;
+           color: azure;
+           text-align: center;
+           padding: 8px;
+           font-size: 17px;
+           border-radius: 50%;
+       }
+       .mina {
+           margin-bottom: 200px;
+           border-left: 20px;
+           color: darkred;
+       }
+       .center {
+           position: absolute;
+           left: 0;
+           top: 43%;
+           width: 100%;
+           text-align: center;
+           padding-bottom: 500px;
+           font-size: 40px;
+           color: rgb(2, 65, 2); 
+           font-family:Verdana, Geneva, Tahoma, sans-serif;
+       }
+       .shop {
+           background-color: darkred;
+           color: azure;
+           margin: auto;
+           width: 15%;
+           font-size: 32px;
+           height: 50px;
+           border: 4px solid rgb(2, 65, 2);
+       }
+       .third {
+           margin-top: 80px;
+           height: 550px;
+           text-align: center;
+           background-color: bisque;
+       }
+       .t0 {
+           width: 100%;
+           float: left;
+           color: rgb(2, 65, 2);
+           margin-bottom: 50px;
+       }
+       .t1 {
+           width: 50%;
+           float: left;
+           padding-left: 25px;
+       }
+       .t2 {
+           width: 50%;
+           float: left;
+       }
+       .expert {
+           font-family: Arial, Helvetica, sans-serif;
+       }
+       .varieties {
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 19px;
+       }
+       .fourth {
+           height: 700px;
+           text-align: center;
+           color: bisque;
+           margin-top: 50px;
+       }
+       .o1 {
+           width: 100%;
+           float: left;
+           color: rgb(2, 65, 2);
+           margin-bottom: 40px;
+           height: 170px;
+       }
+       .ob2 {
+           width: 10%;
+           float: left;
+           background-color: bisque;
+           height: 100px;
+       }
+       .o2 {
+           width: 35%;
+           float: left;
+           color: rgb(2, 65, 2);
+           border: 3px solid darkred;
+           height: 450px;
+           padding-top: 15px;
+           padding-left: 20px;
+           padding-right: 20px;
+           border-radius: 15px;
+           font-family: Verdana, Tahoma, sans-serif;
+       }
+       .obtw23 {
+           width: 10%;
+           float: left;
+           background-color: bisque;
+           height: 100px;
+       }
+       .o3 {
+           width: 35%;
+           float: left;
+           height: 450px;
+           color: rgb(2, 65, 2);
+           border: 3px solid darkred;
+           padding-top: 15px;
+           padding-left: 20px;
+           padding-right: 20px;
+           border-radius: 15px;
+           font-family: Verdana, Tahoma, sans-serif;
+       }
+       .oa3 {
+           width: 10%;
+           float: left;
+           background-color: bisque;
+           height: 100px;
+       }
+       .fifth {
+           height: 600px;
+           width: 100%;
+           float: left;
+           text-align: center;
+           background-color: bisque;
+           padding-top: 20px;
+       }
+       .fif {
+           margin: auto;
+           width: 35%;
+           height: 450px;
+           color: rgb(2, 65, 2);
+           border: 3px solid darkred;
+           padding-top: 15px;
+           padding-left: 20px;
+           padding-right: 20px;
+           border-radius: 15px;
+           font-family: Verdana, Tahoma, sans-serif;
+       }
+       .last {
+           height: 180px;
+           width: 100%;
+           float: left;
+           background-color: darkred;
+           color: white;
+       }
+       .last2 {
+           height: 70px;
+           width: 100%;
+           float: left;
+           background-color: crimson;
+           color: white;
+       }
+       .l1 {
+           height: 180px;
+           width: 50%;
+           float: left;
+           background-color: darkred;
+           color: white;
+           padding: 15px;
+           padding-left: 40px;
+           font-family: Arial, Helvetica, sans-serif;
+       }
+       .l2 {
+           height: 180px;
+           width: 50%;
+           float: left;
+           background-color: darkred;
+           color: white;
+           padding: 15px;
+           padding-left: 40px;
+           font-family: Arial, Helvetica, sans-serif;
+       }
+       .l21 {
+           height: 70px;
+           width: 70%;
+           float: left;
+           background-color: crimson;
+           color: white;
+           padding: 3px;
+           padding-left: 40px;
+           font-family: Arial, Helvetica, sans-serif;
+           
+       }
+       .l22 {
+           height: 70px;
+           width: 30%;
+           float: left;
+           background-color: crimson;
+           color: white;
+           padding: 3px;
+           padding-left: 40px;
+           font-family: Arial, Helvetica, sans-serif;
+       }
+       a:link {
+           text-decoration: none;
+       }
+       .shop:hover {
+           background-color: azure;
+           color: darkred;
+       }
+       .f31in:hover, .f32in:hover {
+           font-size: 22px;
+       }
+       .f33in:hover, .f34in:hover {
+           font-size: 20px;
+       }
+    </style>
+</head>
+<body>
+    <div class="mum">
+    <div class="first">
+        <div class="f1">
+            <h1 class="mina"><b>MINA</b></h1>
+        </div>
+        <div class="f2"></div>
+        <div class="f3">
+           <a href="Asgn.html" target="_blank">
+            <div class="f31">
+                <div class="f31in">Shop</div>
+            </div>
+           </a>
+           <a href="Asgn.html" target="_blank">
+            <div class="f32">
+                <div class="f32in">About</div>
+            </div>
+           </a>
+           <div class="f33">
+            <a href="Asgn.html" target="_blank">
+                <div class="f33in">Contact</div>
+            </a>
+           </div>
+           <a href="Asgn.html" target="_blank">
+            <div class="f34">
+               <div class="f34in">Cart(0)</div> 
+             </div>
+           </a>
+        </div>
+    </div>
+    <div class="second">
+        <img src="images/ceramic-mug.jpg" alt="Ceramic Mugs" width="100%">
+        <div class="center">
+            <h1><b>Handmade Ceramics</b></h1>
+            <p><b>Painted clay ceramics just for you</b></p>
+            <a href="Asgn.html" target="_blank"><br>
+            <div class="shop" id="shoplink">Shop Now</div>
+            </a>
+        </div>
+    </div>
+    <div class="third">
+        <div class="t0">
+        <h1 class="minihead"><b>Our Expertise</b></h1>
+        <h4 class="expert">We have hundreds of expert potters employed in our production factory. All our products are handmade by our potters and are not imported. They mould the clay manually into various shapes and take it to the workers in the kiln section for heating up.</h4>
+        </div>
+        <div class="t1">
+            <img src="images/ceramicmaking3.jpg" alt="" width="400px" height="300px" style="border: 2px solid darkred;">
+        </div>
+        <div class="t2">
+            <img src="images/ceramicmaking4.jpeg" alt="" width="400px" height="300px" style="border: 2px solid darkred; margin-right: 30px;">
+        </div>
+        </div>
+        <div class="fourth">
+        <div class="o1">
+        <h1 style="font-size: 50px;"><b>Our Varieties</b></h1>
+        <h4 class="varieties">We deal with all kinds of ceramics which are always available for purchase. You can easily visit our <a href="#shoplink" style="text-decoration: underline; color: red;">shop</a> section to order yours.</h4>
+        </div>
+        <div class="ob2"></div>
+        <div class="o2">
+        <img src="images/terracotta2.jpg" alt="" width="300px" height="250px" style="border: 4px solid rgb(2, 65, 2);">
+        <h2>Earthenware:</h2>
+        <h4>Terracotta, Redware (American), Victorian Majolica, Lusterware, Raku, Ironstone (China) & Yellowware.</h4>
+        </div>
+        <div class="obtw23"></div>
+        <div class="o3">
+        <img src="images/stoneware.jpg" alt="" width="300px" height="250px" style="border: 4px solid rgb(2, 65, 2);">
+        <h2>Stoneware:</h2>
+        <h4>Fine Stoneware, Traditional Stoneware, Chemical Stoneware, Electrical Stoneware & Thermo Shock-resistant Stoneware.</h4>
+        </div>
+        <div class="oa3"></div>
+        </div>
+        <div class="fifth">
+        <div class="fif">
+        <img src="images/porcelain.jpg" alt="" width="300px" height="280px" style="border: 4px solid rgb(2, 65, 2);">
+        <h2>Porcelain:</h2>
+        <h4>Hard-paste Porcelain, Soft-paste Porcelain & Bone China.</h4>
+        </div>
+        </div>
+        <div class="last">
+        <div class="l1">
+        <h1><b>Mina Handmade Ceramics</b></h1>
+        <h4>Mina is a certified and well-known ceramic company that provides the public with quality ceramic products of numerous varieties.</h4>
+        </div>
+        <div class="l2">
+        <h1><b>Delivery</b></h1>
+        <h4>Mina ceramics company ship their products to various nations for sale. Also, doorstep delivery is available nationwide no matter the state.</h4>
+        </div>
+        </div>
+        <div class="last2">
+        <div class="l21">
+        <h4>&copy; 2022 Mina - Handmade Ceramics Company| All rights reserved. Site by <i>Chikwere Chima</i></h4>
+        </div>
+        <div class="l22">
+        <h4>Privacy Policy| Terms and Conditions</h4>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
